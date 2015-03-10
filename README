@@ -1,18 +1,19 @@
-This is a Perl coding test.  The task is to "play the game of snap".  Yeah,
-I know, it's a bit vague but that's all I've got to work with.
+This is a Perl coding test. If you haven't been invited to take the test then
+you can move along, there's nothing here to see.
+
+The task is to write a program to "play the game of snap".  Yes I know it's
+a bit vague but that's all I was given to work with.
 
 The first version is in bin/snap1.pl
 
 This is a simple emulation written as an all-in-one script.  It's the
-prototype that I planned to throw away.  It took about 40 minutes to write
-this.
+prototype that I planned to throw away.
 
-The second version is in bin/snap2.pl.
+The second version is in bin/snap2.pl
 
 This is the same emulation but modularised.  The script is a simple wrapper
-which utilises the Acme::Snap module.  I spent a little under 20 minutes on
-this, most of which was adding the boilerplate code, Makefile.PL, test script
-and so on.
+which utilises the Acme::Snap module.  I also added some boilerplate code,
+Makefile.PL, test script and so on.
 
 Except it doesn't work yet.  I ran out of time, so the Acme::Snap module is a
 bare-bones skeleton just waiting for someone to flesh it out.  And that's where
@@ -22,6 +23,8 @@ supporting files in any way you see fit.  You are also free to improve on the
 game play, add new features, or do anything else that you think might improve
 the code and/or demonstrate your own abilities and understanding of good
 software engineering practices.
+
+You should aim to spend no more than an hour working on this.
 
 Andy Wardley
 10th March 2015
